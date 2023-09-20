@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Styled Menu Bar</title>
+    <style>
+        /* Reset some default styles for consistency */
+.container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 800px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.report-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+    </style>
+</head>
+<body style="background-color: gainsboro">
+    <header>
+        <h1>Garbage Disposal Hub</h1>
+    </header>
+    <div class="menu-bar">
+        <a href="/garbage/index.html" class="menu-item present">Home</a>   
+        <a href="/garbage/maps.html" class="menu-item">Maps</a>
+        <a href="/garbage/Educational.html" class="menu-item">Educational</a>
+        <a href="/garbage/About.html" class="menu-item">About us</a>
+    </div>
+    <h1 style = "margin-top: 20 px;margin-bottom: 20 px;text-align: center;font-size: 100 px;color: rgb(13, 13, 18);"> Welcome to our Waste Reporting and Management System</h1>
+    
+    <div class="container">
+        <h1>Report a Place and Problem</h1>
+        <form action="#" method="POST" class="report-form">
+            <div class="form-group">
+                <label for="place">Place/Location:</label>
+                <input type="text" id="place" name="place" required>
+            </div>
+
+            <div class="form-group">
+                <label for="problem">Problem/Issue:</label>
+                <textarea id="problem" name="problem" rows="4" required></textarea>
+            </div>
+
+            <div class="form-group">
+                <button type="submit">Submit Report</button>
+            </div>
+        </form>
+    </div>
+    <pre><p>
+
+    </p>
+
+    </pre>
+    <footer>
+
+        <div class="footer-content">
+            <p style = "text-align: center;">&copy; 2023 Your Garbage Company. All rights reserved.</p>            
+        </div>
+    </footer>
+    
+</body>
+</html>

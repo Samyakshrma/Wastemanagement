@@ -1,0 +1,91 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color to the menu bar */
+.menu-bar {
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+/* Style the menu items */
+.menu-item {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    margin: 0 15px;
+    transition: color 0.3s;
+}
+
+.menu-item:hover {
+    color: #ff9900;
+}
+
+/* Optional: Center the menu items horizontally */
+.menu-bar {
+    text-align: center;
+}
+
+/* Optional: Apply some padding to the menu items */
+.menu-item {
+    padding: 10px 15px;
+}
+
+.present{
+    background-color: #444141 ;
+    border-radius: 5px;
+}
+
+/* Optional: Add a subtle hover effect */
+.menu-item:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+
+/*Image center allign*/
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust as needed */
+}
+/* about us section */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.about-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.random-item:hover {
+    color: #464545;
+    cursor: pointer;
+}
+.random-item {
+    color: black;
+    text-align: center;
+}
